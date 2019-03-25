@@ -1,0 +1,38 @@
+
+#Task 1:
+#Line number for the beginning of the class: 524
+
+#Task 2:
+"""
+	This class represents an image object.  To create
+	:py:class:`~PIL.Image.Image` objects, use the appropriate factory
+	functions.  There's hardly ever any reason to call the Image constructor
+	directly.
+	* :py:func:`~PIL.Image.open`
+	* :py:func:`~PIL.Image.new`
+	* :py:func:`~PIL.Image.frombytes`
+"""
+
+#Task 3:
+
+"""
+Description:The function of the filter is to enter an iterator with two items, 
+then the items are filtered using the filtering function and this function 
+is what defines whether the items are accepted or not to be returned to the main function.
+"""
+
+#Task 4:
+'''
+class MySong:
+    """A simple example of song class"""
+    def _init_(self, artist, genre, length, album):
+        # instance variables unique to each instance
+        self.artist = artist
+        self.genre = genre
+        self.length = length
+        self.album = album
+Instances of the Song class:
+Shelter = MySong("Porter Robinson", "Electro House", 338, "Porter and Madeon")
+Goodbye to a World = MySong("Porter Robinson", "Electronica", 531, "Worlds")
+I’m so tired… = MySong("Lauv & Troye Sivan", "Pop", 243, "Lauv")
+'''
