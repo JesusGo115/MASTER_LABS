@@ -37,9 +37,9 @@ def downloadImage(url):
 downloadImage(image)
 
 #convert image to grayscale
-goog = cv2.imread('google.png', cv2.IMREAD_GRAYSCALE)
+goog = cv2.applyColorMap(image2, cv2.COLORMAP_BONE)
 
-goog_remap = cv2.applyColorMap(goog, cv2.COLORMAP_HOT)
+goog_remap = cv2.applyColorMap(image2, cv2.COLORMAP_HOT)
 
 # use highgui to display image
 cv2.imshow("Hot Google", goog_remap)
@@ -47,7 +47,7 @@ cv2.imshow("Hot Google", goog_remap)
 # keeps the image displayed
 cv2.waitKey()
 
-goog_remap = cv2.applyColorMap(goog, cv2.COLORMAP_RAINBOW)
+goog_remap = cv2.applyColorMap(image2, cv2.COLORMAP_RAINBOW)
 
 cv2.imshow("Google on Drugs", goog_remap)
 
